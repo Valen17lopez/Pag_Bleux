@@ -443,7 +443,7 @@ h2 {
     }
     .imgB {
         width: 300px;
-        margin: 17% 0% 0% 13%;
+        margin: 17% 0% 0% 16%;
     }
     #sub {
         padding: 2% 0%;
@@ -495,5 +495,8 @@ h2 {
     }
     .barra {
         margin: 0px 31px;
+    }
+    p{
+        margin-right: 10px;
     }
 }
