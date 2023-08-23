@@ -407,9 +407,9 @@ h2 {
         border: none;
     }
     #al {
-        width: 289px;
+        width: auto;
         flex-wrap: wrap;
-        margin: 0px 0px 8px 29px;
+        margin: 0px 5px 8px 5px;
     }
     .boton {
         width: 43%;
