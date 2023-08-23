@@ -1,0 +1,499 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(30 23 47);;
+}
+nav{
+    width: 37%;
+
+}
+#al{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    list-style: none;
+    align-items: center;
+}
+a{
+    color: #fff;
+}
+.boton{
+    width: 19%;
+    padding: 13px 0px;
+    background: linear-gradient(to right, rgb(127, 68, 213, 1) 10%, rgb(48, 133, 218) 60%);
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+}
+section {
+    display: flex;
+    height: 574px;
+}
+.conA {
+    width: 50%;
+    background-color: rgb(46 37 80);
+}
+h1 {
+    color: #fff;
+    font-size: 68px;
+}
+p {
+    color: #fff;
+    font-size: 21px;
+}
+.conAa {
+    margin: 16% 0% 0% 31%;
+}
+.botA {
+    background: #fff;
+    color: fuchsia;
+    width: 128px;
+    padding: 12px 0px;
+    border-radius: 7px;
+    border: none;
+}
+.botE{
+    width: 123px;
+    padding: 10px 0px;
+    border-radius: 7px;
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+.conE{
+    text-align: center;
+    background-image: url(../imagenes/hojasFondo.jpg);
+    width: 50%;
+    background-size: cover;
+}
+.botones {
+    border: solid 1px #9c9797;
+    padding: 3px 3px 3px 3px;
+    border-radius: 6px;
+    display: inline-block;
+}
+.imgA {
+    width: 207px;
+    padding: 12% 35% 0% 0%;
+}
+.imgB {
+    width: 484px;
+    margin: 49px 0px 0px 41%;
+}
+#sub {
+    text-align: center;
+    color: #F4148A;
+    padding: 2%;
+    font-size: 63px;
+}
+h2 {
+    font-size: 42px;
+    color: #F4148A;
+}
+#h{
+    font-size: 22px;
+    color: #F4148A;
+}
+
+.vale{
+    display: flex;
+}
+
+.vb{
+    width: 60%;
+}
+.va {
+    padding: 3% 0% 0% 0%;
+    width: 45%;
+}
+.parr {
+    font-size: 19px;
+}
+.parra {
+    font-size: 19px;
+    padding: 0% 0% 9% 0%
+}
+.caja{
+    background: rgb(30 23 47);
+}
+.N{
+    text-align: center;
+    color: #fff;
+}
+.n{
+    font-size: 58px;
+    padding: 2%;
+}
+.nm {
+    width: 42%;
+    text-align: center;
+    padding: 0% 29%;
+    font-size: 19px;
+}
+.yu{
+    font-size: 18px;
+}
+.ae{
+    display: flex;
+}
+.icon{
+   color: #F4148A;
+   margin: 0% 1% 0% 0%
+}
+.cajaE {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 4% 0%;
+    background-color: rgb(30 23 47);
+}
+.segunca {
+    background-color: #fff;
+    width: 20%;
+}
+.titu{
+    color: #F4148A;
+    text-align: center;
+    font-size: 25px;
+}
+.titul{
+    color: rgb(30 23 47);
+    text-align: center;
+    font-size: 25px;
+}
+.sombra {
+    display: flex;
+    justify-content: center;
+    padding: 3% 0% 0% 0%;
+    height: 3.5rem;
+    background: #f3f3f5;
+    text-align: center;
+}
+.sombra span{
+    padding-left: 2px;
+}
+#precio{
+    font-size: 2em;
+    margin: 0% 2% 0% 0%;
+}
+.vin{
+    display: flex;
+   padding: 4% 0% 0% 0%;
+}
+.icono {
+    margin: 0% 9% 0% 19%;
+}
+.text{
+    margin: 0% 15%;
+    padding: 9% 0%;
+}
+.iconos {
+    margin: 0% 9% 0% 19%;
+}
+.botoncito{
+    width: 44%;
+    background: linear-gradient(to right, rgb(255, 255, 255) -78%, rgb(243 26 137) 60%);
+    padding: 4%;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    margin: 2% 0% 3% 0%;
+}
+.botoncitos{
+    width: 44%;
+    background-color:rgb(30 23 47);
+    padding: 4%;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    margin: 2% 0% 3% 0%;
+}
+.parm {
+    display: flex;
+    font-size: 20px;
+    margin: 9px 0px 0px 0px;
+}
+.color{
+    color:#F4148A;
+    margin: 0px 3px;
+}
+.barra {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 1% 10%;
+}
+.mk{
+    display: flex;
+}
+.logos {
+    width: 38px;
+    margin: 0px 5px;
+}
+
+@media screen and (max-width: 1278px) {
+    #al {
+        width: 408px;
+    }
+    .imgA {
+        width: 206px;
+        padding: 19% 31% 0% 0%;
+    }
+    .botones {
+        padding: 3px 3px 3px 3px;
+        display: inline-block;
+    }
+    .imgB {
+        width: 429px;
+        margin: 37px 0px 0px 6%;
+    }
+    h2 {
+        font-size: 41px;
+    }
+    .parr {
+        font-size: 17px;
+    }
+    .parra {
+        font-size: 17px;
+        padding: 0% 0% 8% 0%;
+    }
+    .nm {
+        width: 74%;
+        padding: 0% 8% 5% 13%;
+    }
+    .segunca {
+        background-color: #fff;
+        width: 28%;
+    }
+}
+@media screen and (max-width: 919px) {
+    
+    nav {
+        width: 44%;
+    }
+    #al {
+        width: 384px;
+    }
+    .conAa {
+        margin: 30% 0% 0% 15%;
+    }
+    .imgA {
+        width: 204px;
+        padding: 27% 22% 0% 0%;
+    }
+    .imgB {
+        width: 350px;
+        margin: 37px 0px 0px 6%;
+    }
+    .vb {
+        width: 54%;
+    }
+    .parr {
+        font-size: 16px;
+    }
+    .parra {
+        font-size: 16px;
+        padding: 0% 0% 8% 0%;
+    }
+    .icono {
+        margin: 0% 9% 0% 10%;
+    }
+    .iconos {
+        margin: 0% 9% 0% 10%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    header {
+        display: flex;
+        justify-content: center; 
+        align-items: start;
+        flex-flow: column wrap;
+        background-color: rgb(30 23 47);
+    }
+    .logom {
+        margin: 0px 0px 9px 165px;
+    }
+    #al {
+        width: 384px;
+        flex-wrap: wrap;
+        margin: 0px 0px 8px 44px;
+    }
+    .conAa {
+        margin: 45% 0% 0% 5%;
+    }
+    h1 {
+        font-size: 58px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .botA {
+        width: 122px;
+        padding: 12px 0px;
+        margin: 0;
+    }
+    .botones {
+        width: 90%;
+        margin: 0;  
+        display: flex;
+        justify-content:space-evenly;
+    }
+    .imgA {
+        width: 177px;
+        padding: 51% 5% 0% 0%;
+    }
+    .vale {
+        flex-direction: column;
+    }
+    .imgB {
+        width: 350px;
+        margin: 17% 0% 0% 23%;
+    }
+    .va {
+        padding: 3% 0% 0% 17%;
+        width: 65%;
+    }
+    .cajaE {
+        flex-direction: column;
+        align-items: center;
+    }
+    .segunca {
+        width: 55%;
+        margin: 0% 0% 6% 0%;
+    }
+    .icono {
+        margin: 0% 9% 0% 17%;
+    }
+    .nm {
+        width: 91%;
+        padding: 2% 5% 4% 5%;
+    }
+    .barra {
+        flex-direction: column;
+        align-items: center;
+    }
+    .parm {
+        margin: 9px 0px 9px 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* #al{
+        display: flex;
+        flex-wrap: wrap;
+
+    } */
+
+    header {
+        align-items: center;
+    }
+
+    nav{
+        width: 100%;
+    }
+    .boton {
+        width: 90%;
+        padding: 11px;
+        margin: 3%;
+        border-radius: 3px;
+        border: none;
+    }
+    #al {
+        width: 289px;
+        flex-wrap: wrap;
+        margin: 0px 0px 8px 29px;
+    }
+    .boton {
+        width: 43%;
+        margin: 4% 14% 0% 28%;
+    }
+    .logom {
+        margin: 1px 0px 11px 0;
+    }
+    section {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .conA {
+        width: 100%;
+        background-color: rgb(46 37 80);
+    }
+    .conAa {
+        margin: 18% 0% 0% 10%;
+    }    
+    .botones {
+        padding: 7px;
+        margin: 0px 19px 14px 0px;
+    }
+    .conE {
+        width: 100%;
+    }
+    .imgA {
+        width: 181px;
+        padding: 20% 4% 6% 4%;
+    }
+    .imgB {
+        width: 300px;
+        margin: 17% 0% 0% 13%;
+    }
+    #sub {
+        padding: 2% 0%;
+        font-size: 46px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .va {
+        padding: 3% 0% 0% 17%;
+        width: 70%;
+    }
+    .parr {
+        font-size: 18px;
+    }
+    #h {
+        font-size: 24px;
+    }
+    .parra {
+        font-size: 18px;
+        padding: 0% 0% 8% 0%;
+    }
+    .n {
+        font-size: 58px;
+        padding: 1%;
+    }
+    .nm {
+        padding: 2% 4% 4% 4%;
+    }
+    .segunca {
+        width: 69%;
+        margin: 0% 0% 6% 0%;
+    }
+    .icono {
+        margin: 0% 9% 0% 10%;
+    }
+    .parm {
+        font-size: 15px;
+        margin: 9px 0px 9px 0px;
+    }
+    .barra {
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+    }
+    .logos {
+        width: 35px;
+        margin: 0px 5px;
+    }
+    .barra {
+        margin: 0px 31px;
+    }
+}
